@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "betterflight",
+  "version": "1.0.0",
+  "name": "Better Flight",
+  "description": "Provides an alternative to elytra firework rockets.",
+  "authors": ["NotchArrow", "AtlasM8","RejahTavi"],
+  "contact": {
+    "homepage": "https://github.com/NotchArrow/BetterFlight",
+    "sources": "https://github.com/NotchArrow/BetterFlight"
+  },
+  "license": "MIT",
+  "icon": "assets/betterflight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.notcharrow.betterflight.BetterFlight"
+    ],
+    "client": [
+      "com.notcharrow.betterflight.BetterFlightClient"
+    ]
+  },
+  "mixins": [
+    "betterflight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "trinkets": "3.7.2"
+  },
+  "suggests": {},
+  "custom": {
+    "sounds": {
+      "flap": {
+        "category": "player",
+        "sounds": ["mob/enderdragon/wings1", "mob/enderdragon/wings2", "mob/enderdragon/wings3", "mob/enderdragon/wings4", "mob/enderdragon/wings5", "mob/enderdragon/wings6"]
+      },
+      "boost": {
+        "category": "player",
+        "sounds": ["mob/enderdragon/wings1", "mob/enderdragon/wings2", "mob/enderdragon/wings3", "mob/enderdragon/wings4", "mob/enderdragon/wings5", "mob/enderdragon/wings6"]
+      }
+    }
+  }
+}
