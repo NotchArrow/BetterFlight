@@ -4,7 +4,7 @@
   "package": "com.notcharrow.betterflight.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "com.notcharrow.betterflight.mixin.ElytraFlightMixin"
+    "ElytraFlightMixin"
   ],
   "client": [],
   "injectors": {
